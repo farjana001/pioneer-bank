@@ -1,13 +1,40 @@
 /* ----- Google Font ----- */
 
-
 /* ----- General Styling ----- */
 *{margin: 0; padding: 0;}
 
 body{
-
+ 
 }
-
+#login-area{
+    background-color: rgb(238, 235, 235);
+    padding-bottom: 90px;
+}
+.submit-area{
+   border-radius: 10px;
+    width: 80%;
+    margin-top: 50px;
+    padding: 40px;
+    box-shadow: 5px 5px 10px gray;
+}
+#transaction-area{
+    display: none;
+}
+.deposit{
+    background-color: slateblue;
+}
+.withdraw{
+    background-color: lightsalmon;
+}
+.balance{
+    background-color: orange;
+}
+.status{
+    color: white;
+    padding: 20px;
+    border-radius: 10px;
+    margin: 0 30px;
+}
 /* ----- Header Section ----- */
 
 
